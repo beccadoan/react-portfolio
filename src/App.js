@@ -1,13 +1,22 @@
 import './App.css';
 import Nav from './components/Nav'
+import Project from './components/Project'
+import About from './components/About'
+import Footer from './components/Footer'
+
 
 function App() {
   return (
-    <div>
-      <Nav/>
-      <main>
-      </main>
-    </div>
+    <body>
+      <div className="content">
+        <Nav/>
+        <main>
+          <About />
+          <Project />
+        </main>
+      </div>
+      <Footer />
+    </body>
   );
 }
 
