@@ -4,17 +4,27 @@ import Project from '../Project'
 function Portfolio(){
     const projects = [
     {
-        'title': 'Front End',
+        'title': 'Womens Tech Forum',
+        'description': 'A forum where women in tech can go to network and ask questions',
+        'source': 'womens-tech-forum.png'
+    },
+    {
+        'title': 'Tunes and Tribunes',
+        'description': 'A website to find the latest on your favorite artists',
+        'source': 'mainpageartists.png'
+    },
+    {
+        'title': 'Run Buddy',
+        'description': 'A front end website to show off your trainers',
+        'source': 'run-buddy.png'
+    },
+    {
+        'title': 'Hey End',
         'description': 'description',
         'source': 'womens-tech-forum.png'
     },
     {
-        'title': 'Back End',
-        'description': 'description',
-        'source': 'womens-tech-forum.png'
-    },
-    {
-        'title': 'Side End',
+        'title': 'Hey End',
         'description': 'description',
         'source': 'womens-tech-forum.png'
     },
