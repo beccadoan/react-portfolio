@@ -20,6 +20,8 @@ body {
 }
 
 
+
+
 /* Begin styling header */
 
 header {
@@ -227,6 +229,90 @@ body {
   flex: 1;
 }
 
+/* style contact sercion */
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+form {
+  width: 40%;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+/* styling resume section */
+
+.resume {
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  color: #667b68;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.contact-info {
+  border: 2px solid var(--primary-color);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.download a {
+  /* text-decoration: none; */
+  color:#667b68;
+}
+
 /* end styling footer */
 
 @media screen and (max-width:980px){
@@ -259,6 +345,8 @@ body {
       width: 40%;
   }
 
+
+
   
 }
 
@@ -271,6 +359,10 @@ body {
   .intro-img {
       width: 350px;
   }
+
+  textarea {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 575px){
@@ -282,8 +374,12 @@ body {
       width: 80%;
   }
 
-header nav ul {
-  justify-content: center;
-}
+  header nav ul {
+    justify-content: center;
+  }
+
+  textarea {
+    width: 300px;
+  }
  
 }

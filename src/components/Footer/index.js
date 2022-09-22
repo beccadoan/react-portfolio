@@ -8,12 +8,12 @@ function Footer(){
             <h2>Thanks for visiting!</h2>
             <ul>
                 <li>
-                    <a href="https://github.com/beccadoan" target="_blank">
+                    <a href="https://github.com/beccadoan" target="_blank" rel="noreferrer">
                         <img src={github} alt="github icon" className="small-icon"/>
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/rebecca-doan-249122159/" target="_blank">
+                    <a href="https://www.linkedin.com/in/rebecca-doan-249122159/" target="_blank" rel="noreferrer">
                         <img src={linkedin} alt="linkedin icon" className="small-icon"/>
                     </a>
                 </li>
