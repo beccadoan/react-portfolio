@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b999eae7.css",
+    "main.js": "/react-portfolio/static/js/main.0cdec252.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/mainpageartists.png": "/react-portfolio/static/media/mainpageartists.0de8275e54e0f63236ad.png",
+    "static/media/run-buddy.png": "/react-portfolio/static/media/run-buddy.6c22b33f16fab368d47e.png",
+    "static/media/photo-port.png": "/react-portfolio/static/media/photo-port.4257abc688d91c8e9293.png",
+    "static/media/my-portfolio.png": "/react-portfolio/static/media/my-portfolio.b1b3ef2a7af672adb547.png",
+    "static/media/womens-tech-forum.png": "/react-portfolio/static/media/womens-tech-forum.c97148892c4b11d99a4c.png",
+    "static/media/headshot.jpg": "/react-portfolio/static/media/headshot.4288dcdb6d3605d1f15d.jpg",
+    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.7cc41edf6a9f938bbbd8.png",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.78e051fbb775bccdc681.pdf",
+    "static/media/contact-cards.png": "/react-portfolio/static/media/contact-cards.39024207f1aa442463a6.png",
+    "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.712c4ce3d6be06644d11.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.b999eae7.css.map": "/react-portfolio/static/css/main.b999eae7.css.map",
+    "main.0cdec252.js.map": "/react-portfolio/static/js/main.0cdec252.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b999eae7.css",
+    "static/js/main.0cdec252.js"
+  ]
+}
