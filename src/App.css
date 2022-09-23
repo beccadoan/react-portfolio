@@ -137,15 +137,19 @@ header nav ul li span:hover {
   margin: 20px;
   background: #fdf0e8;
   color: var(--primary-color);
-  width: 20%;
+  width: 45%;
+  border: 2px solid green;
+  border-radius: 15px;
 }
 
 .project img {
   width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .project-bio {
-  padding: 25px;
+  padding: 10px;
   line-height: 1.3;
 }
 
@@ -342,7 +346,7 @@ input:focus {
   }
 
   .project {
-      width: 40%;
+      width: 80%;
   }
 
 
@@ -368,10 +372,6 @@ input:focus {
 @media screen and (max-width: 575px){
   header {
       position: relative;
-  }
-
-  .project {
-      width: 80%;
   }
 
   header nav ul {

@@ -2,11 +2,11 @@ import React from 'react';
 
 
 function Project({project}){
-    const {title, description, source} = project
+    const {title, description, source, ref, alt} = project
     return (
         <article class="project">
-        <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank" rel="noreferrer">
-        <img src={require(`../../assets/images/${source}`)} alt="current category" />
+        <a href={ref} target="_blank" rel="noreferrer">
+        <img src={require(`../../assets/images/${source}`)} alt={alt} />
         </a>
         <div class="project-bio">
             <h3 class="">{title}</h3>
