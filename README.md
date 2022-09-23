@@ -6,3 +6,5 @@ This is my personal portfolio made with React JS to showcase some of the front e
 ## Deployed app
 Check out the deployed application here:
 https://beccadoan.github.io/react-portfolio/
+
+![deployed portfolio](src/assets/images/my-portfolio.png)
