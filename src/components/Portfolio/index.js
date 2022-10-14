@@ -39,11 +39,11 @@ function Portfolio(){
         'alt': "Photo Port deployed application"
     },
     {
-        'title': 'Contact Cards',
-        'description': 'Website to create new contacts',
-        'source': 'contact-cards.png',
-        'ref': 'https://thawing-earth-61169.herokuapp.com/',
-        'alt': "Contact Cards deployed application"
+        'title': 'NowYouKnow',
+        'description': 'A game to play with your friends',
+        'source': 'NowYouKnow.png',
+        'ref': 'https://arcane-cliffs-23763.herokuapp.com/',
+        'alt': "NowYouKnow deployed application"
     }
 ]
     return (
